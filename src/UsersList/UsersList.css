@@ -1,0 +1,32 @@
+.users {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+h1 {
+  color: rgb(211, 158, 45);
+}
+.user a {
+  color: rgb(223, 122, 214);
+  font-size: larger;
+}
+h2 {
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.user {
+  margin: 15px;
+  color: rgb(250, 250, 250);
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 20px rgba(228, 85, 144, 0.877);
+  border: 1px solid rgba(209, 91, 170, 0.466);
+  border-right: 1px solid rgba(199, 63, 147, 0.2);
+  border-bottom: 1px solid rgba(180, 47, 125, 0.2);
+  background-color: rgba(219, 119, 174, 0.1);
+  border-radius: 50px;
+}
